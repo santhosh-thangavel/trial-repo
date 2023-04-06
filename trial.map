@@ -1,0 +1,5 @@
+map $request_uri $new_uri {
+    default "";
+    /test-to-rewrite /test-rewritten;
+    /test2-to-rewrite /test2-rewritten;
+}
