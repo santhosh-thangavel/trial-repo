@@ -1,4 +1,5 @@
 map $request_uri $redirect {
-    /test-to-rewrite /test-rewritten;
-    /test2-to-rewrite /test2-rewritten;
+    /to-github              https://github.com/GSS-Cogs;
+    /https-load-balancer    https://cloud.google.com/run/docs/integrate/custom-domain-load-balancer;
+
 }
